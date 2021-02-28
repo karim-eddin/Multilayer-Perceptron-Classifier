@@ -1,6 +1,5 @@
-MLP Classifier
+Multilayer Perceptron Classifier
 ==========================
-A *Handwritten* **Multilayer Perceptron Classifier**
 
 This python implementation is an extension of artifical neural network discussed in [Python Machine Learning](https://github.com/rasbt/python-machine-learning-book) and  [Neural networks and Deep learning](http://neuralnetworksanddeeplearning.com) by extending the ANN to **deep** neural network &  including **softmax layers**, along with **log-likelihood** *loss function* and **L1** and **L2** *regularization techniques*.
 
@@ -38,6 +37,3 @@ The output from the softmax layer can be thought of as a probability distributio
 ![](https://s31.postimg.org/4399dynd7/Screenshot_from_2016_06_16_04_50_36.png) 
   
 In many problems it is convenient to be able to interpret the output activation ***O(j)*** as the network's estimate of the probability that the correct output is ***j***.
-
-Refer these [notes](https://www.ics.uci.edu/~pjsadows/notes.pdf) for calculus of softmax function.  
-[Source](http://yann.lecun.com/exdb/mnist/) of MNIST training data-set.
